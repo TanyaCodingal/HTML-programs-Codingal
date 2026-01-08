@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            Exam marks
+        </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>
+                        Exam marks
+                    </h3>
+                </legend>
+                <label>
+                    Enter name :
+                </label>
+                <input type="text"></fieldset>
+                <br>
+                <br>
+                <select name="subject1" id="subject1">
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Biology">Biology</option>
+                </select>
+                <input type="text" id="Marks1">
+                <br>
+                <br>
+                <select name="subject2" id="subject2">
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Biology">Biology</option>
+                </select>
+                <input type="text" id="Marks2">
+                <br>
+                <br>
+                <select name="subject3" id="subject3">
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Biology">Biology</option>
+                </select>
+                <input type="text" id="Marks3">
+                <br>
+                <br>
+                <select name="subject4" id="subject4">
+                    <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Maths">Maths</option>
+            <option value="Biology">Biology</option>
+        </select>
+        <input type="text" id="Marks4">
+        <br>
+        <br>
+        <button>
+            Submit
+        </button>
+        </fieldset>
+    </form>
+    </body>
+</html>
