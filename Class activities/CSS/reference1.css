@@ -1,4 +1,18 @@
-h3{
+.main{
     color:firebrick;
     background-color: blanchedalmond;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.copy{
+    color:blue;
+    background-color: chartreuse;
+    font-size: 20px;
+    font-family:cursive
+}
+#clone{
+    color:blanchedalmond;
+    background-color: cornflowerblue;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif
 }
