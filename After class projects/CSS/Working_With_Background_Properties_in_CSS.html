@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Background Properties, effects and animations in CSS
+        </title>
+    </head>
+    <style>
+        body{
+            background-image: url(Screenshot\ 2025-08-25\ 204832.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center right
+        }
+        #g1{
+            background-color: darkred;
+            background-image: linear-gradient(to top right, navy, violet, darkred, yellow, orange, green, pink, black);
+        }
+        div{
+            height: 100px;
+            width: 300px;
+            background-color: cyan;
+            animation-name: a;
+            animation-duration: 7s
+        }
+        @keyframes a {
+            0%{background-color: cyan; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+            20%{background-color:beige; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+            40%{background-color: chocolate; font-family:'Times New Roman', Times, serif}
+            60%{background-color:cornflowerblue; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+            80%{background-color: darkgoldenrod; font-family: Verdana, Geneva, Tahoma, sans-serif} 
+            100%{background-color: darkturquoise; font-family: monospace;}           
+        }
+    </style>
+    <body>
+        <h1>
+            Welcome to my Web Page
+        </h1>
+        <p>
+            <h3>We will be using <b>Background Properties</b> in <i>CSS</i></h3>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>This is an apple. It is very sweet.</h2>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="g1" style="text-align: justify; margin: auto; color:maroon; font-size: 50px; font-weight: bold">
+                There is a popular saying in English:
+                <p>
+                    An apple a day keeps the doctor away
+                </p>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div>
+                <h3>Do you agree?</h3>
+            </div>
+        </p>
+    </body>
+</html>
