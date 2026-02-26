@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>
+            Horizontal Scrollspy
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        </script>
+        <style>
+            body{
+                position: relative;
+            }
+            h4{
+                font-size: 18px;
+            }
+            #section1{
+                padding-top: 50px;
+                height: 500px;
+                color: white;
+                background-color: orange;
+            }
+            #section2{
+                padding-top: 50px;
+                height: 500px;
+                color: greenyellow;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Container</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="MyNavbar">
+                        <ul class="nav header-nav">
+                            <li>
+                                <a href="#section1">Section 1</a>
+                            </li>
+                            <li>
+                                <a href="#section2">Section 2</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="section1" class="container-fluid">
+                <h1>Section 1</h1>
+                <h3>Java Programming</h3>
+                <h4>
+                    Java is a high-level, class-based, object-oriented programming language designed with the principle of "Write Once, Run Anywhere" (WORA). Developed by
+                    James Gosling at Sun Microsystems (now owned by Oracle) in the mid-1990s, it balances simplicity with powerful features for enterprise, mobile (Android), 
+                    and web applications. Its code is compiled into bytecode, which is then executed by the Java Virtual Machine (JVM) on any platform, providing portability. 
+                    Java includes automatic memory management through garbage collection, supports multithreading, and features a rich standard library, which contributes to 
+                    its reputation for robustness and security. Its syntax is familiar to C and C++ programmers, but it intentionally omits complex or error-prone features like
+                    explicit pointers and operator overloading.
+                </h4>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <h3>Python programming</h3>
+            <h4>
+                Python is a high-level, general-purpose programming language known for its readability and simple, English-like syntax, which makes it an excellent choice
+                for beginners. It is an interpreted language, meaning code can be executed line by line, which speeds up the edit-test-debug cycle. Developed by Guido van
+                Rossum in 1991, Python emphasizes code modularity and supports multiple programming paradigms including object-oriented and procedural programming.
+            </h4>
+           </div>
+    </body>
+</html>
