@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            #dice{
+                font-size: 320;
+            }
+
+            #dice-hover{
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>Click on the Dice...</div>
+        <div id="dice" onclick="StopStart()"></div>
+
+        <script>
+            var dices=['&#9856;','&#9857;','&#9858;','&#9859;','&#9860;','&#9861;'];
+            var stopped=true;
+
+            function change(){
+                var random=Math.floor(Math.random()*6);
+                dice.innerHTML=dices[random];
+            }
+
+            function StopStart(){
+                if(stopped){
+                    stopped=false;
+                    t=setInterval(change,10);
+                }
+                else{
+                    clearInterval(t);
+                    stopped=true;
+                }
+            }
+
+            window.onload=function(){
+                dice=document.getElementById("dice");
+                StopStart();
+            }
+        </script>
+    </body>
+</html>
