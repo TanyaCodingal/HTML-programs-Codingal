@@ -60,3 +60,151 @@ html{
         border-radius: 10%;
     }
 }
+/*Sliders CSS*/
+.slider-img{
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+.carousel-caption h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+    animation: slideDown 1s;
+}
+.carousel-caption p{
+    font-size: 24px;
+    margin: 20px 0;
+    animation: slideUp 1.2s;
+}
+.carousel-caption .btn{
+    border-radius: 40px;
+    transition: 4s;
+}
+.carousel-caption .btn:hover{
+    transform: scale(1.1);
+}
+.carousel-control-prev-icon,
+
+.carousel-control-next-icon{
+
+background-color:rgba(0,0,0,.5);
+
+padding:25px;
+
+border-radius:50%;
+
+}
+
+/* Indicators */
+
+.carousel-indicators button{
+
+width:14px;
+
+height:14px;
+
+border-radius:50%;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.slider-img{
+
+height:70vh;
+
+}
+.carousel-caption{
+
+bottom:18%;
+
+}
+
+.carousel-caption h1{
+
+font-size:38px;
+
+}
+
+.carousel-caption p{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.slider-img{
+
+height:60vh;
+
+}
+.carousel-caption{
+
+bottom:12%;
+
+}
+
+.carousel-caption h1{
+
+font-size:28px;
+
+}
+
+.carousel-caption p{
+
+font-size:16px;
+
+}
+
+.carousel-caption .btn{
+
+font-size:15px;
+
+padding:10px 20px;
+
+}
+
+}
+@keyframes slideDown{
+
+from{
+
+transform:translateY(-40px);
+
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+
+opacity:1;
+
+}
+
+}@keyframes slideUp{
+
+from{
+
+transform:translateY(40px);
+
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+
+opacity:1;
+
+}
+
+}
