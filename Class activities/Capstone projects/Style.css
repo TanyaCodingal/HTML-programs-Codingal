@@ -208,3 +208,40 @@ opacity:1;
 }
 
 }
+
+.course-card{
+    transition: 4s;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.course-card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.course-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px rgba(0,0,0,.25);
+}
+
+.course-card img:hover{
+    transform: scale(1.08);
+}
+
+.course-card img{
+    transition: 5s;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+h2{
+    font-weight: bold;
+}
