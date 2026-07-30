@@ -54,3 +54,32 @@
 .dark-mode .dropdown-item:hover{
     background: #0d6efd;
 }
+
+.product-card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.product-card img{
+    height: 220px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.product-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0.15px 30px rgba(0, 0, 0, 0.2);
+}
+.product-card:hover img{
+    transform: scale(1.08);
+}
+.product-card h5{
+    color: #0d6efd;
+}
+.badge{
+    font-size: 14px;
+    padding: 8px 12px;
+}
+.btn{
+    border-radius: 25px;
+}
