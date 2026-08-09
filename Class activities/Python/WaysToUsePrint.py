@@ -1,0 +1,5 @@
+print("Welcome to the world of Coding")
+print(50000,"+ students have used us")
+print("45+32=",45+32)
+print("My name is Tanya\nI love coding")
+print("ENDING :",end="LOL")
